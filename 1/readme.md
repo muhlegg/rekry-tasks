@@ -1,6 +1,6 @@
 ## Task 1
 
-Your task is to complete the classes so that the command below outputs an list of purchased items.
+Your task is to complete the classes so that the command below outputs a list of purchased items.
 
 Command
 ```
