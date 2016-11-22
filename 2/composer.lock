@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "857c533262168123da33dec4e0e6fa84",
-    "content-hash": "a53af570166af397076a6be62d4d1ac3",
+    "hash": "37f09114ae380d0928d4371066dbd75c",
+    "content-hash": "b90b826e5d299d6e158123cbecbefcab",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -234,61 +234,6 @@
                 "response"
             ],
             "time": "2016-08-06 14:39:51"
-        },
-        {
-            "name": "th3mouk/yahoo-weather-api",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Th3Mouk/YahooWeatherAPI.git",
-                "reference": "e66cc22f41d289cf2ef5615ae47369d68a138a3f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Th3Mouk/YahooWeatherAPI/zipball/e66cc22f41d289cf2ef5615ae47369d68a138a3f",
-                "reference": "e66cc22f41d289cf2ef5615ae47369d68a138a3f",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^6.2.1",
-                "php": "^5.6 || ^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.4.3",
-                "sllh/php-cs-fixer-styleci-bridge": "^2.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Th3Mouk\\YahooWeatherAPI\\": "src/",
-                    "Th3Mouk\\YahooWeatherAPI\\Tests\\": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jérémy Marodon",
-                    "email": "marodon.jeremy@gmail.com"
-                }
-            ],
-            "description": "A PHP weather forecast library based on Yahoo Weather API.",
-            "homepage": "https://github.com/Th3Mouk/YahooWeatherAPI",
-            "keywords": [
-                "api",
-                "forecasts",
-                "weather",
-                "yahoo",
-                "yahoo api"
-            ],
-            "time": "2016-09-27 19:45:21"
         }
     ],
     "packages-dev": [],

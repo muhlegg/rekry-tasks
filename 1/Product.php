@@ -1,3 +1,3 @@
 <?php
 
-// TODO
+// TODO: Write a workign Product class
