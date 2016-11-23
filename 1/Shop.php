@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Shop
+ *
+ * @author Filip Holmberg <filip@mobiilimarkkinointirouta.fi>
+ */
 class Shop
 {
     /**
@@ -8,7 +13,7 @@ class Shop
     private $products = [];
 
     /**
-     * Purchase product
+     * Purchase product.
      *
      * @param ProductContract  $Product
      */
@@ -17,6 +22,11 @@ class Shop
         array_push($this->products, $Product);
     }
 
+    /**
+     * Get purchased products.
+     *
+     * @return ProductContract[]
+     */
     public function getProducts()
     {
         return $this->products;
