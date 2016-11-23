@@ -26,8 +26,8 @@ interface ProductContract 
     /**
      * ProductC constructor.
      *
-     * @param string $name   Product name
-     * @param integer $price Price as micro(*1000)
+     * @param string $name Product name
+     * @param float $price Price as float
      */
     public function __construct($name, $price);
 }
