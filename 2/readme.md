@@ -1,13 +1,13 @@
 ## Task 2
 
-Your task is to output a weather summary for Turku using Composer packages and the Yahoo weather API.
+Your task is to output a weather summary for Turku using Composer packages. You can use the Yahoo weather API or/and any other package you find suitable.
 
 Command
 ```
 $ php rekry-tasks/2/app.php
 ```
 
-Wanted output
+Wanted output (current day wind info and forecast summary for tomorrow)
 ```
 Weather info for Turku
 Current wind speed: 28.97
