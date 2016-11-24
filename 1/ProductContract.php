@@ -5,7 +5,7 @@
  *
  * @author Filip Holmberg <filip@mobiilimarkkinointirouta.fi>
  */
-interface ProductContract 
+interface ProductContract
 {
     /**
      * Get product price.
