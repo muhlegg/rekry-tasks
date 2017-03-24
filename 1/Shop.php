@@ -15,9 +15,9 @@ class Shop
     /**
      * Purchase product.
      *
-     * @param ProductContract  $Product
+     * @param ProductContract $Product
      */
-    public function purchase(ProductContract  $Product)
+    public function purchase(ProductContract $Product)
     {
         array_push($this->products, $Product);
     }
